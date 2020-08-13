@@ -1,0 +1,40 @@
+ *
+ {
+        margin: 0;
+        padding: 0;
+      }
+      .btn {
+        width: 7em;
+        height: 4em;
+        margin: 0.2em;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        background-color: rgb(13, 230, 230);
+      }
+      .btn:hover {
+       background-color: #03806f;
+       font-weight: bold;
+       color: white;
+      }
+
+      #viewer {
+        width: 30em;
+        height: 4em;
+        margin: 0.3em;
+        padding: 0.1em 0.8em;
+      }
+      #main {
+        background-image: url("bg.png");
+        background-repeat : no-repeat;
+        background-size :cover;
+        background-position: center;
+        height: 100%;
+        opacity: 0.8;
+      }
+      form {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+      }
